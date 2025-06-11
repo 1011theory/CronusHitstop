@@ -1,0 +1,39 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.3.3",
+	"FriendlyName": "Cronus Hitstop",
+	"Description": "Subsystem for the creation and automatic management of complex Hitstops.",
+	"Category": "Gameplay",
+	"CreatedBy": "The First Ones",
+	"CreatedByURL": "https://www.unrealengine.com/marketplace/en-US/profile/TheFirstOnes?count=20&sortBy=effectiveDate&sortDir=DESC&start=0",
+	"DocsURL": "https://drive.google.com/drive/folders/1jlWLsqcUhkn6V46_QX7FNDuzWnfgFds_?usp=sharing",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1c0201f6452a48d88254b8cdc877dcc0",
+	"SupportURL": "https://discord.gg/aSvK2J6C48",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "CronusHitstop",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "CronusHitstopEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		}
+	]
+}
